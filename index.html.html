@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!-- HTML5 文件宣告；瀏覽器會依照 HTML5 規則解析本頁。 -->
+<html lang="zh-Hant">
+<!-- lang 指定頁面主要語言為繁體中文，有助於瀏覽器及輔助工具判讀。 -->
+<head>
+    <!-- head 放置編碼、SEO 摘要、分享資訊與分頁標題，不是主要報導內容。 -->
+    <meta charset="UTF-8">
+    <!-- UTF-8 可正確顯示繁體中文。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport 讓行動裝置依裝置寬度呈現網頁。 -->
+    <meta name="description" content="認識臺中東區帝國製糖廠臺中營業所的歷史、建築特色、湖畔景觀與參觀重點。">
+    <!-- description 是搜尋結果可能使用的頁面摘要，內容與本文主題一致。 -->
+    <meta name="author" content="張翌恩 D1483922">
+    <!-- author 標示作品作者；若個人資料有變動，繳交前請確認姓名與學號。 -->
+    <meta name="robots" content="index, follow">
+    <!-- robots 說明搜尋引擎可索引本頁並追蹤頁面中的連結。 -->
+    <meta property="og:type" content="article">
+    <!-- og:type 將社群分享內容標示為文章。 -->
+    <meta property="og:locale" content="zh_TW">
+    <!-- og:locale 指定社群分享時的語言地區。 -->
+    <meta property="og:title" content="帝國糖廠：走進臺中的產業記憶">
+    <!-- og:title 是社群分享卡片的標題。 -->
+    <meta property="og:description" content="從歷史建築、糖業記憶到湖畔景觀，認識臺中東區帝國製糖廠臺中營業所。">
+    <!-- og:description 是社群分享卡片的摘要。 -->
+    <meta property="og:image" content="https://img.youtube.com/vi/AXkGVtI9iKI/0.jpg">
+    <!-- og:image 使用本文照片區的公開預覽圖片作為分享縮圖。 -->
+    <meta property="og:image:alt" content="帝國製糖廠臺中營業所修復暨再利用工程影片預覽圖">
+    <!-- og:image:alt 提供社群分享圖片的替代文字。 -->
+    <!-- canonical 與 og:url 暫不填寫：本作業尚未部署，避免使用 localhost、file:// 或虛構公開網址。 -->
+    <title>HW07 帝國糖廠報導｜走進臺中的產業記憶</title>
+    <!-- title 是瀏覽器分頁標題，與 body 裡的 h1 主標題不同。 -->
+
+    <!-- CSS 外部樣式表：HTML 位於作業根目錄，先進入 css 資料夾再讀取 hw07.css。 -->
+    <link rel="stylesheet" href="css/hw07.css">
+    <!-- 相對路徑從本 HTML 檔所在的根目錄開始：css/ 代表進入同層 css 資料夾。 -->
+
+
+</head>
+
+<body>
+    <!-- header 是頁首，放置主標題、副標、作者、日期與作品性質。 -->
+    <header id="top">
+        <h1>帝國糖廠：走進臺中的產業記憶</h1>
+        <p>從歷史建築到湖畔綠地，認識臺中東區保存下來的糖業故事。</p>
+        <p>作者：張翌恩｜學號：D1483922｜更新日期：<time datetime="2026-11-08">2026 年 11 月 8 日</time></p>
+        <!-- report-disclaimer 的外觀由 css/hw07.css 中的 .report-disclaimer 提供。 -->
+        <p><small class="report-disclaimer">本文依公開資料整理，並非現場採訪紀錄。</small></p>
+    </header>
+
+    <!-- nav 是頁內導覽區；每個 href 都對應下方唯一的 section id，方便讀者快速跳轉。 -->
+    <nav aria-label="報導目錄">
+        <h2>報導目錄</h2>
+        <ul>
+            <li><a href="#intro">一、景點簡介</a></li>
+            <li><a href="#history">二、歷史與建築特色</a></li>
+            <li><a href="#visit">三、參觀重點與建議路線</a></li>
+            <li><a href="#table">四、景點特色比較表</a></li>
+            <li><a href="#photo">五、景點照片</a></li>
+            <li><a href="#video">六、影音介紹</a></li>
+            <li><a href="#map">七、位置地圖</a></li>
+            <li><a href="#sources">八、資料來源</a></li>
+            <li><a href="#reminder">補充提醒</a></li>
+        </ul>
+    </nav>
+
+    <!-- hr 用來分隔頁首導覽與主要報導內容，避免以大量 br 製造版面間距。 -->
+    <hr>
+
+    <!-- main 是整頁唯一的主要內容容器；article 內的內容可以獨立閱讀成一篇景點報導。 -->
+    <main>
+        <article aria-label="帝國製糖廠臺中營業所景點報導">
+
+            <!-- section 將景點簡介獨立成一個主題章節，id 供 nav 的頁內連結使用。 -->
+            <section id="intro">
+                <h2>一、景點簡介</h2>
+                <p>
+                    帝國製糖廠臺中營業所位於臺中市東區樂業路，是認識臺中糖業歷史的重要地點。
+                    這裡的前身與日本帝國製糖株式會社的臺中工場有關，現存營業所建築興建於
+                    1935 年。戰後，建築曾作為臺灣糖業公司臺中辦公處；隨著產業結構改變及糖廠
+                    停產，原有廠區多數房舍陸續拆除，營業所建築則保存至今。
+                </p>
+                <p>
+                    這座建築不只是舊房舍，也記錄了臺灣製糖產業與臺中城市發展的關係。
+                    帝國製糖廠臺中營業所於 2016 年登錄為歷史建築，修復後重新開放，讓民眾
+                    能透過建築空間與展示內容認識過去的產業生活。參觀時可以觀察建築外觀、
+                    門廊、屋頂線條與室內空間，理解歷史建築保存與再利用的意義。
+                </p>
+                <p>
+                    帝國糖廠周邊也結合公園、湖景與步道，使歷史建築和戶外休憩空間互相連結。
+                    遊客除了認識糖業文化，也能在周邊散步、拍照，觀察水岸、綠地與建築之間的
+                    關係。若想深入了解建築沿革，建議先閱讀官方介紹與現場解說，再依自己的時間安排參觀。
+                </p>
+                <p>
+                    <strong>景點地址：</strong>臺中市東區樂業路 30 號。<br>
+                    <strong>閱讀焦點：</strong><!-- reading-focus 的背景、留白與圓角由外部 CSS 控制。 -->
+                    <mark class="reading-focus">糖業歷史、歷史建築、湖畔景觀與再利用</mark>。
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- section 整理歷史與建築特色；h3 進一步建立章節內的小標題層次。 -->
+            <section id="history">
+                <h2>二、歷史與建築特色</h2>
+                <h3>值得留意的三個特色</h3>
+                <!-- ul 是無序清單，用來列出彼此沒有先後順序的參觀重點。 -->
+                <ul>
+                    <li><strong>產業歷史：</strong>建築與臺中早期製糖產業發展有關，見證地方產業轉型。</li>
+                    <li><strong>歷史建築：</strong>現存營業所建築興建於 1935 年，具有保存與研究價值。</li>
+                    <li><strong>新舊融合：</strong>修復後結合文化展示及周邊休憩空間，讓歷史場域重新融入城市生活。</li>
+                </ul>
+                <p>
+                    參觀時可以留意建築立面的比例、入口門廊、屋頂形式與室內空間。
+                    這些細節呈現當時公共建築的設計特色，也讓人看見歷史建築如何在保存原有價值的同時，
+                    轉化為今日可親近的文化空間。
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- section 整理建議參觀順序；ol 用於具有先後次序的走讀流程。 -->
+            <section id="visit">
+                <h2>三、參觀重點與建議路線</h2>
+                <!-- route-note 的左側框線、內距與文字色由 css/hw07.css 中的 .route-note 提供。 -->
+                <p class="route-note">以下是本報導自行整理的參觀建議，並非官方指定路線；實際開放區域及活動請以現場公告為準。</p>
+                <!-- ol 是有序清單，適合呈現從開始到結束的建議參觀順序。 -->
+                <ol>
+                    <li>先到建築外部觀察整體外觀，閱讀現場的歷史介紹。</li>
+                    <li>沿著開放的參觀動線欣賞建築細節，了解營業所的歷史背景。</li>
+                    <li>若館內有開放展覽，可依現場指示認識糖業與地方產業文化。</li>
+                    <li>最後到周邊公園及湖畔步道散步，觀察水岸、樹木與建築之間的關係。</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <!-- section 的表格章節集中整理不同參觀重點；table 使用 border="1" 符合本次純 HTML 有框表格要求。 -->
+            <section id="table">
+                <h2>四、景點特色比較表</h2>
+                <!-- caption 說明表格主題，thead/tbody 區分表頭與資料，scope 幫助輔助工具理解欄列關係。 -->
+                <table>
+                    <caption>帝國糖廠周邊參觀重點整理</caption>
+                    <thead>
+                        <tr>
+                            <!-- th 是標題儲存格；scope="col" 表示該標題對應整欄。 -->
+                            <th scope="col">參觀重點</th>
+                            <th scope="col">主要特色</th>
+                            <th scope="col">建議觀察內容</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- th scope="row" 標示該列主題，td 放置該列的一般資料。 -->
+                            <th scope="row">營業所建築</th>
+                            <td>1935 年興建的歷史建築</td>
+                            <td>外觀、門廊、屋頂及建築比例</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">糖業歷史展示</th>
+                            <td>介紹地方產業發展與歷史脈絡</td>
+                            <td>展覽文字、老照片及產業資料</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">周邊公園與湖畔</th>
+                            <td>結合自然景觀的戶外休憩空間</td>
+                            <td>水岸、綠地及建築與環境的關係</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <hr>
+
+            <!-- section 的照片章節使用 figure 將圖片與圖說視為一個完整內容單位。 -->
+            <section id="photo">
+                <h2>五、景點照片</h2>
+                <!-- figure 包含 img 與 figcaption；img 的 alt 必須具體描述圖片內容。 -->
+                <figure>
+                    <img
+                        src="https://img.youtube.com/vi/AXkGVtI9iKI/0.jpg"
+                        alt="帝國製糖廠臺中營業所修復暨再利用工程影片的預覽圖片"
+                        width="480">
+                    <figcaption>
+                        帝國製糖廠臺中營業所修復暨再利用工程影片預覽圖。
+                        圖片來源：
+                        <a href="https://www.youtube.com/watch?v=AXkGVtI9iKI"
+                           target="_blank"
+                           rel="noopener noreferrer">臺中市文化資產處相關影片</a>。
+                    </figcaption>
+                </figure>
+            </section>
+
+            <hr>
+
+            <!-- section 的影音章節嵌入與本文主題直接相關的 YouTube 影片。 -->
+            <section id="video">
+                <h2>六、影音介紹</h2>
+                <p>透過臺中市文化資產處的影片，了解帝國製糖廠臺中營業所的修復與再利用。</p>
+                <!-- iframe 嵌入 YouTube 播放器；title、寬高與 allowfullscreen 提供用途與操作資訊。 -->
+                <iframe
+                    class="media-frame"
+                    width="640"
+                    height="360"
+                    src="https://www.youtube.com/embed/AXkGVtI9iKI"
+                    title="帝國製糖廠臺中營業所修復暨再利用工程"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+                <!-- 一般影片連結提供 iframe 無法播放時的替代閱讀方式。 -->
+                <p>
+                    若播放器無法播放，請
+                    <a href="https://www.youtube.com/watch?v=AXkGVtI9iKI"
+                       target="_blank"
+                       rel="noopener noreferrer">在 YouTube 觀看影片</a>。
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- section 的地圖章節提供互動式 Google 地圖，定位至正文介紹的帝國製糖廠臺中營業所。 -->
+            <section id="map">
+                <h2>七、位置地圖</h2>
+                <p>
+                    <strong>地址：</strong>臺中市東區樂業路 30 號。
+                    本地圖以帝國製糖廠臺中營業所的公開 GPS 座標
+                    24.1378495, 120.6921452 為中心。
+                </p>
+                <!-- iframe 將 Google 地圖嵌入頁面；title 描述地圖用途，loading="lazy" 可延後載入。 -->
+                <iframe
+                    src="https://maps.google.com/maps?q=24.1378495,120.6921452&amp;z=16&amp;output=embed"
+                    class="media-frame"
+                    width="640"
+                    height="360"
+                    title="帝國製糖廠臺中營業所位置地圖"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <!-- 一般地圖連結在嵌入地圖無法使用時提供替代方式。 -->
+                <p>
+                    若地圖無法嵌入，請
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=24.1378495%2C120.6921452"
+                       target="_blank"
+                       rel="noopener noreferrer">在 Google 地圖開啟帝國製糖廠臺中營業所</a>。
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- aside 是可從主文省略而不影響主要論述的補充提醒，適合放置走讀注意事項。 -->
+            <aside id="reminder" aria-label="走讀補充提醒">
+                <h2>補充提醒</h2>
+                <!-- details/summary 使用瀏覽器原生收折功能，不需要 JavaScript。 -->
+                <details>
+                    <summary>參觀前提醒</summary>
+                    <p>
+                        本頁資料依公開資訊整理；實際開放時間、活動、展覽與可參觀區域可能調整，
+                        出發前應再次查看相關官方公告。若需要導覽，也可依官方資訊提前確認。
+                    </p>
+                </details>
+            </aside>
+
+            <hr>
+
+            <!-- section 的來源章節列出文字、照片、影片與地圖來源，方便讀者查證。 -->
+            <section id="sources">
+                <h2>八、資料來源</h2>
+                <p>本文的歷史背景與景點資訊參考以下公開資料；參觀前請再次確認最新開放資訊。</p>
+                <!-- ul 用於整理不同類型的來源；連結文字直接說明來源內容，不使用模糊的「點我」。 -->
+                <ul>
+                    <li>
+                        <a href="https://www.tchac.taichung.gov.tw/information?pid=5958&amp;uid=43"
+                           target="_blank"
+                           rel="noopener noreferrer">臺中市文化資產處：歷史建築帝國製糖廠－臺中營業所</a>
+                        （歷史建築與參觀資訊）
+                    </li>
+                    <li>
+                        <a href="https://www.east.taichung.gov.tw/833385/833395/833400/2093005/"
+                           target="_blank"
+                           rel="noopener noreferrer">臺中市東區區公所：帝國製糖廠臺中營業所</a>
+                        （景點歷史與地方介紹）
+                    </li>
+                    <li>
+                        <a href="https://www.tchac.taichung.gov.tw/Movie?pid=24&amp;uid=23"
+                           target="_blank"
+                           rel="noopener noreferrer">臺中市文化資產處：修復暨再利用工程影片</a>
+                        （影片來源）
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=AXkGVtI9iKI"
+                           target="_blank"
+                           rel="noopener noreferrer">YouTube：帝國製糖廠臺中營業所修復暨再利用工程</a>
+                        （照片預覽圖與影片來源）
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/search/?api=1&amp;query=24.1378495%2C120.6921452"
+                           target="_blank"
+                           rel="noopener noreferrer">Google 地圖：帝國製糖廠臺中營業所</a>
+                        （位置地圖來源）
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <!-- footer 是頁尾，提供作品資訊、更新日期與回到頁首的頁內連結。 -->
+    <footer>
+        <hr>
+        <p><small>本頁為 HTML 課程作業 HW07，延續 HW06 景點報導並將 CSS 整理為外部樣式表。</small></p>
+        <p><small>作者：張翌恩｜學號：D1483922｜更新日期：<time datetime="2026-11-08">2026 年 11 月 8 日</time></small></p>
+        <p><a href="#top">回到頁首</a></p>
+    </footer>
+</body>
+</html>
